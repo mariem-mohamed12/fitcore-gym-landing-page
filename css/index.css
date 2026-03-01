@@ -1,0 +1,391 @@
+body {
+  font-family: system-ui, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.margin-bottom {
+  margin-bottom: 80px;
+}
+
+.margin-top {
+  margin-top: 60px;
+}
+
+.text-dark-blue-gray {
+  color: #101828;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.text-slate-gray {
+  color: #4a5565;
+}
+.bg-black {
+  background-color: black;
+}
+.text-white {
+  color: white;
+}
+
+.padding-15 {
+  padding: 18px 25px;
+}
+.rounded-8 {
+  border-radius: 8px;
+}
+.border-transparent {
+  border: 1px solid transparent;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.text-gray {
+  color: #364153;
+}
+.border-gary {
+  border: 3px solid #d1d5dc;
+}
+.bg-white {
+  background-color: white;
+}
+
+.hero-section h1 {
+  font-size: 60px;
+  max-width: 500px;
+  line-height: 75px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 14px;
+}
+
+.hero-section .item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.hero-content {
+  width: 60%;
+}
+.hero-image {
+  width: 35%;
+}
+.hero-section .image img {
+  width: 95%;
+  border-radius: 15px;
+}
+
+.hero-section p {
+  max-width: 550px;
+  line-height: 33px;
+}
+.hero-section button {
+  margin-right: 8px;
+}
+.why-choose-us,
+.testimonials .title {
+  text-align: center;
+}
+
+.why-choose-us p {
+  margin: 5px 0;
+}
+
+.why-choose-us p,
+.section-three .item h3 {
+  line-height: 28px;
+}
+
+.testimonials .items .item,
+.why-choose-us .items .item {
+  float: left;
+  width: 31%;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 30px 35px;
+}
+.why-choose-us .items .item-one,
+.testimonials .items .item-one {
+  background-color: #dbeafe;
+  border: 1px solid #bedbff;
+}
+
+.why-choose-us .items .item-two,
+.testimonials .items .item-two {
+  background-color: #d0fae5;
+  border: 1px solid #a4f4cf;
+}
+.why-choose-us .items .item-three,
+.testimonials .items .item-three {
+  background-color: #f3e8ff;
+  border: 1px solid #e9d4ff;
+}
+
+.clear {
+  clear: both;
+}
+.why-choose-us .items .parent {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+  position: relative;
+  border-radius: 10px;
+}
+.why-choose-us .items .parent-one {
+  background-color: #155dfc;
+}
+.why-choose-us .items .parent-two {
+  background-color: #009966;
+}
+.why-choose-us .items .parent-three {
+  background-color: #9810fa;
+}
+.why-choose-us .items .parent .child {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.why-choose-us .items .parent .child-one {
+  border-radius: 10px;
+}
+.why-choose-us .items .parent .child-two {
+  border-radius: 50%;
+}
+.why-choose-us .items .parent .child-three {
+  border-radius: 6px;
+}
+
+.why-choose-us h3 {
+  font-weight: 700;
+  line-height: 28px;
+}
+.why-choose-us .items .item p {
+  font-size: 14px;
+  color: #364153;
+  line-height: 23px;
+  margin: auto;
+}
+
+.section-three .item {
+  float: left;
+  width: 46.3%;
+  margin: 0px 20px;
+}
+.section-three .item h2 {
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 0;
+}
+
+.section-three .item h3 {
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.section-three .item p {
+  line-height: 24px;
+  margin-top: 0px;
+}
+.section-three .item .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+.section-three .item .border-left {
+  border-left: 4px solid black;
+}
+.section-three .item div {
+  padding-left: 10px;
+}
+
+.testimonials .items .item .image img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.testimonials .card-header .float {
+  float: left;
+  margin: 0 5px;
+}
+.testimonials .card-header .image {
+  width: 20%;
+}
+.testimonials .card-header .info {
+  width: 60%;
+}
+.testimonials .card-header .info p,
+.testimonials .card-header .info h3 {
+  margin: 0;
+}
+.testimonials .card-body p {
+  color: #364153;
+  line-height: 26px;
+}
+.testimonials .static {
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  border: 1px solid #767b7f5d;
+  padding: 15px;
+}
+.testimonials .static .item {
+  float: left;
+  width: 25%;
+  padding: 10px 0;
+  text-align: center;
+}
+.testimonials .static h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin: 0;
+}
+.membership-form .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.membership-form p {
+  margin: 0;
+  line-height: 28px;
+}
+
+.membership-form form {
+  width: 80%;
+  margin: auto;
+}
+
+.membership-form form label {
+  display: block;
+  padding-bottom: 9px;
+  color: #364153;
+  font-weight: 500;
+}
+
+.membership-form form div {
+  margin: 20px 0px;
+}
+
+.membership-form .form-group .float {
+  float: left;
+  width: 47%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.membership-form .form-group .margin-right {
+  margin-right: 40px;
+}
+
+.membership-form input,
+.membership-form select,
+.membership-form textarea {
+  width: 100%;
+  padding: 18px 24px;
+  border-radius: 10px;
+  border: 1px solid #d1d5dc;
+}
+.membership-form .form-group {
+  margin: 0 -20px;
+}
+
+textarea {
+  resize: none;
+}
+.membership-form button {
+  width: 100%;
+  padding: 20px 0;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+.membership-form p {
+  text-align: center;
+  padding: 14px 0;
+}
+
+footer {
+  background-color: #101828;
+  padding: 60px 10px;
+}
+.footer h2 {
+  font-size: 30px;
+}
+
+footer p,
+footer a {
+  color: #99a1af;
+}
+
+footer a {
+  display: inline-block;
+  margin: 15px 0px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer li a {
+  margin: 8px;
+}
+footer .content {
+  float: left;
+  margin: 0px 15px;
+}
+footer .content-one {
+  width: 50%;
+}
+footer .content-two {
+  width: 20%;
+}
+footer h3 {
+  margin-bottom: 10px;
+}
+footer h4 {
+  margin: 10px 0;
+}
+
+.copy {
+  border-top: 1px solid #364153;
+  margin: 40px 0;
+  padding: 10px 0;
+}
+footer .copy .item-one {
+  float: left;
+  padding-top: 10px;
+}
+
+footer .copy .item-two {
+  float: right;
+}
+footer .copy a,
+footer .copy p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #6a7282;
+}
