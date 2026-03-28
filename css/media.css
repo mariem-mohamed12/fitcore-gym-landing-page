@@ -1,0 +1,96 @@
+@media (min-width: 640px) {
+  .container {
+    width: 96%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .hero .hero-content {
+    width: 47%;
+  }
+
+  .hero .hero-image {
+    width: 47%;
+  }
+
+  .hero .hero-image img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+    line-height: 75px;
+  }
+
+  .benefits-card,
+  .reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .benefits-card .card,
+  .our-members .reviews .card {
+    width: 31%;
+  }
+
+  .more-benefits,
+  .membership-form .names {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .more-benefits .image,
+  .membership-form .names .f-name,
+  .membership-form .names .l-name {
+    width: 48%;
+  }
+
+  .more-benefits .content {
+    width: 48%;
+  }
+
+  .why-choose .more-benefits .content h2 {
+    margin: 0;
+  }
+
+  .our-members .statistics .numbers {
+    width: 23%;
+  }
+  .membership-form form {
+    width: 80%;
+    padding: 20px 50px;
+  }
+  footer .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  footer .content .footer-info {
+    width: 45%;
+  }
+  footer .content .quick-links,
+  footer .content .contact-info{
+    width: 25%;
+  }
+  footer .copy {
+    display: flex;
+    justify-content: space-between;
+  }
+}
