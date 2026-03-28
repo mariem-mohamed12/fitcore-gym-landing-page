@@ -1,20 +1,26 @@
-# FitCore Gym Website
+🏋️‍♀️ FitCore Gym Website
 
-A gym landing page built using HTML and CSS.
+A modern and responsive gym landing page built using HTML and CSS.
 
-## 🛠 Technologies Used
+🚀 Features
+
+- Clean and modern UI
+- Fully responsive design
+- Built using Flexbox
+- Semantic HTML structure
+- Reusable and organized CSS
+
+🔄 Updates
+
+- Refactored layout (replaced float with Flexbox)
+- Improved code structure and readability
+- Added responsive design using media queries
+- Enhanced UI and spacing
+
+🛠️ Technologies Used
+
 - HTML5
 - CSS3
-- Float Layout
-- Inline-Block
+- Flexbox
+- Media Queries
 
-## 📂 Sections
-- Hero Section
-- Why Choose Us
-- Features
-- Testimonials
-- Membership Form
-- Footer
-
-## 🎯 Project Goal
-Practice building website layouts using traditional CSS techniques such as Float and Inline-Block.
